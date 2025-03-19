@@ -18,7 +18,7 @@ jobs:
         run: zip -r dist.zip dummy-extension
 
       - name: Upload Chrome Extension
-        uses: pHo9UBenaA/chrome-extension-upload-action@master
+        uses: pHo9UBenaA/chrome-extension-upload-action@v0.2.3
         with:
           client-id: ${{ secrets.CLIENT_ID }}
           client-secret: ${{ secrets.CLIENT_SECRET }}
